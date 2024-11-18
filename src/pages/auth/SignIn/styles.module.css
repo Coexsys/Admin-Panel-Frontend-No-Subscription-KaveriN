@@ -1,0 +1,86 @@
+.side {
+  flex: 0 0 360px;
+  /* box-shadow: 0px -1px 7px #eee; */
+  background-color: #fff;
+  padding: 200px 24px 24px;
+}
+
+.signUpSide {
+  flex: 0 0 360px;
+  /* box-shadow: 0px -1px 7px #eee; */
+  padding: 200px 24px 24px;
+}
+
+.main {
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.leading {
+  margin: 0;
+}
+
+.logo {
+  height: 32px;
+}
+
+.footer {
+  color: #999;
+}
+.errormessage {
+  color: red;
+  text-align: center;
+}
+.submitbutton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitbutton[disabled] {
+  background-color: #cccccc;
+}
+
+
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Full height */
+}
+
+.signinColumn {
+  height: 100%;
+  width: 40%; /* Each column takes half the width */
+  padding: 20px; /* Padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.signupColumn {
+  width: 60%; /* Each column takes half the width */
+  padding: 75px 140px 24px;
+  height: 100%;
+
+}
+
+h2 {
+  margin-bottom: 1rem; /* Space below headings */
+}
+
+form {
+  display: block;
+  flex-direction: column; /* Stack input fields vertically */
+}
+.toggle {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

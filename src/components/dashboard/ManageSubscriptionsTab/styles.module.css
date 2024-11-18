@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.spaceItem {
+  border: 1px solid #d9d9d9; /* Light gray border color */
+  border-radius: 4px;        /* Optional: Rounds the corners */
+  background-color: #ffffff; /* Optional: Adds a background color */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.leading {
+  margin: 0;
+}
+
+.card-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+  margin: 0;
+}
+
+.container{
+  background-color: #f6f8fa;
+}
+.card-description {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  text-wrap: nowrap;
+}
+
+.row-gap {
+  padding: 8px 0;
+}
+ .EditButton {
+   background-color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ .EditButton:hover {
+  background-color: #e6eaed;
+   border: none;
+   cursor: pointer;
+}

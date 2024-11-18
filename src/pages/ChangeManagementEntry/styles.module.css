@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.leading {
+  margin: 0;
+}
+
+.input {
+  width: 200px;
+}
+
+.select {
+  width: 200px;
+}
+
+.card {
+  flex: 0 0 250px;
+}
+
+.card-content {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1 1 auto;
+}

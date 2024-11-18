@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.leading {
+  margin: 0;
+}
+
+.treeview {
+  border: 1px solid #ccc;
+  padding: 12px;
+  flex: 0 0 250px;
+  height: 600px;
+}
+
+.content {
+  flex: 1 1 auto;
+}
